@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/toast_on_resume2"
+    android:padding="28dp"
+    android:background="@android:color/holo_red_dark">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_hot_tub_24"
+        android:layout_margin="28dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/texto_Toast2"
+        android:textColor="@android:color/white"
+        android:typeface="sans"
+        android:textSize="12sp"
+        />
+</LinearLayout>
